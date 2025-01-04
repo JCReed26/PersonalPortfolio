@@ -124,6 +124,7 @@ section {
     border-radius: 50%;
     padding: 15px;
     margin: 0 5px;
+    position: relative;
 }
 
 .social-icon:hover {
@@ -139,6 +140,15 @@ section {
 
 .social-icon i {
     font-size: 35px;
+}
+
+.social-icon span {
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #2d3436;
 }
 
 #about h2, #projects h2 {
@@ -238,6 +248,33 @@ section {
 .skills-category li:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Blog Link */
+#blog-link {
+    text-align: center;
+    padding: 60px 0;
+    background: #ffffff;
+}
+
+#blog-link:nth-child(even) {
+    background: #f5f6fa;
+}
+
+.blog-link-container {
+    display: flex; 
+    justify-content: center;
+}
+
+.blog-link {
+    color: #2d3436;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.blog-link:hover {
+    color: #74b9ff;
 }
 
 /* Footer */
