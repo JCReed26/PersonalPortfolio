@@ -13,30 +13,39 @@
             <div class="logo">JR</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">Contact</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="blog.html">Blog</a></li>
             </ul>
         </div>
     </nav>
 
     <section id="home">
         <div class="container">
-            <h1>Hello, I'm Jimmy Reed</h1>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
+            <div class="title-section">
+                <h1>Hi, I'm Jimmy</h1>
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:jimmy@example.com">jamescreed0520@gmail.com</a></p>
+                    <p>Phone: (407) 988-4984</p>
+                </div>
+            </div>
             <div class="about-me">
                 <h2>About Me</h2>
                 <p>
                     I am a full time student at Florida State University, majoring in Computer Science and focusing on my skills 
                     outside the classroom to solve real world problems simplistically, efficiently, and effectively.
-                    I am an aspiring backend engineer with a love and passion for learning, automation, and  simplifying daily life.
+                    I am an aspiring backend engineer with a love and passion for Learning, Automation, and  Machine Learning.
+                    In my current course work I am learning about Operating System and the Linux Kernal, Computer Networks, and Databases.
+                    Outside of my courses, I am taking two codecademy courses: Machine Learning: Introduction with Regression, and 
+                    Intro to PyTorch and Neural Networks. I will be implementing what I learn through a Football Play Prediction project that
+                    will use SQL queries and PyTorch to anaylze large datasets. I am currently seeking full-time Summer/Fall 2025 internships.
                 </p>
             </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
             <div class="my-links">
                 <h2>My Links</h2>
                 <div class="social-links">
@@ -61,22 +70,20 @@
         <div class="container">
             <h2>My Projects</h2>
             <div class="projects-grid">
-                <!--
+    
                 <div class="project-card">
                     <h3>Auto Budget & Expense Tracker</h3>
-                    <p>Status: Analysis</p>
-                    <p>This project focuses on developing an intelligent expense management system 
-                    that leverages image processing and data categorization technologies. The program 
-                    will extract itemized details and costs from images of receipts or email invoices. 
-                    Using categorization algorithms, it will classify expenses into relevant 
-                    budget categories. The application aims to provide users with actionable insights 
-                    into their spending habits, identify areas for cost savings, and facilitate more 
-                    effective personal budgeting and financial planning.</p>
+                    <p class="stack">React.js, Python, Supabase, Docker</p>
+                    <p>This project I made to build out further later. I wanted to have simplistic budgeting with my 
+                        expenses shown out clearly. Through the process of development I focused on learning more of why
+                        things work where. The project utilizes my Receipt Reader API to categorize and add my expenses 
+                        automatically and categorized to give me proper insights into my spending habits. 
+                    </p>
                 </div>
-                -->
+            
                 <div class="project-card">
-                    <h3>Receipt Reader and categorization</h3>
-                    <p>Status: Complete</p>
+                    <h3>Receipt Reader and Categorization API</h3>
+                    <p class="stack">Python, Tesseract-OCR, OpenAI, Docker</p>
                     <p>
                         This program takes in an image opens, manipulates, and reads the text from the image with CV2 and PIL libraries and reads the 
                         text using Tesseract-OCR with the pytesseract library. The program then categorizes the items on the receipt by sending the 
@@ -86,7 +93,7 @@
                 </div>
                 <div class="project-card">
                     <h3>Full-Stack Crud Application</h3>
-                    <p>Built with React, JavaScript, Python, Flask, and SQLAlchemy</p>
+                    <p class="stack">Built with React, JavaScript, Python, Flask, and SQLAlchemy</p>
                     <p>Within this project I created a full-stack web application that allows users to create,
                         read, update, and delete data from a database. I build this as a starting point for creating 
                         full stack applications in the future. I learned a lot about the process of creating each instance 
@@ -115,16 +122,17 @@
                         <ul>
                             <li>Python</li>
                             <li>C++</li>
+                            <li>JavaScript</li>
                             <li>C#</li>
                             <li>.NET</li>
                             <li>Java</li>
                             <li>HTML/CSS</li>
-                            <li>JavaScript</li>
                         </ul>
                     </div>
                     <div class="skills-category">
                         <h3>Tools & Frameworks</h3>
                         <ul>
+                            <li>React.js</li>
                             <li>VS Code</li>
                             <li>Microsoft Visual Studio</li>
                             <li>GitHub</li>
@@ -134,20 +142,8 @@
                     </div>
                 </div>
             </div>
-
-            <div class="blog-link-container">
-                <a href="blog.html" class="blog-link">Visit My Blog</a>
-            </div>
-
         </div>
     </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Jimmy Reed. All rights reserved.</p>
-        </div>
-    </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
